@@ -1,9 +1,14 @@
-def fibonacciSeries(n):
-    if n==0 or n==1:
-        return n
-    else:
-        
-        return fibonacciSeries(n-2)+fibonacciSeries(n-1)
-    
-print(fibonacciSeries(10))
+n = int(input("Enter a number: "))
+
+print(f"Fibonacci series upto {n}: ")
+a, b = 0, 1
+
+while a<=n:
+    print(a, end=" ")
+    a, b = b, a+b
+
+
+
+
+
 
