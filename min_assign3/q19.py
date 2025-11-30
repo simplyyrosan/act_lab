@@ -8,6 +8,7 @@ def count_vc(s):
             c+=1
     return v, c
 
+#Main
 t = input("Enter a string: ")
 vc = count_vc(t)
 print(f"vowels: {vc[0]}, consonant: {vc[1]}" )

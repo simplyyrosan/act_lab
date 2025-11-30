@@ -8,4 +8,6 @@ def is_perfect(n):
     else:
         print("Not perfect")
         
-is_perfect(7)
+#
+n = int(input("Enter a number: "))
+is_perfect(n)

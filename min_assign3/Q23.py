@@ -6,5 +6,5 @@ for i in l:
     if len(i) > len(x):
         x = i 
 
-print(x)
+print(x, "is the longest word.")
 

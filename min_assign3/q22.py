@@ -6,7 +6,8 @@ def digital_root(n):
             n//=10
         n = sum
     return n
-    
+
+#Main
 num = int(input("Enter a numner: "))
 print(digital_root(num))
 
