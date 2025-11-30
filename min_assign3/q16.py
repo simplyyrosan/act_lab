@@ -5,7 +5,8 @@ def is_prime(n):
             a = "is not prime"
             break
     print(n, a)
-    
-    
-is_prime(5)
+
+#main 
+n = int(input("Enter a number: "))
+is_prime(n)
         

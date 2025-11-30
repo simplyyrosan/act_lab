@@ -9,7 +9,7 @@ def is_palindrome(s):
     
 n = int(input("Enter a number: "))
 if is_palindrome(n):
-    print("Palindrome") 
+    print(n, "is a Palindrome") 
 else:
-    print("Not palindrome") 
+    print(n, "is not a Palindrome") 
     
