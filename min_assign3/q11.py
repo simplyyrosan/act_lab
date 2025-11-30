@@ -1,7 +1,7 @@
 
-n = 7
+n = int(input("Enter value for 'n': "))
 sum= 0
-x=1.57
+x= int(input("Enter value for 'x': "))
 a = -1
 for i in range(1, n+1, 2):
     fac = 1
@@ -9,10 +9,7 @@ for i in range(1, n+1, 2):
         fac*=j
     
     a *= -1
-    #print(i, x, fac, a)
     sum += a*(x**i/fac)
     
 print(sum)
 
-#math.pow(i, 3)
-#i**3
